@@ -3,25 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>myFirstLayout</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
         <nav>
-            <img src="" alt="">
-            <ul>
+            <img src="assets/images/IndexedLogo.png" alt="logo" class="main-logo">            <ul>
                 <li>
-                    <a href="">link 1</a>
-                    <a href="">link 2</a>
-                    <a href="">link 3</a>
-                    <a href="">link 4</a>
+                    <a href="#">Home</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Newsletter</a>
+                <button><a href="#">Sign Up</a></button>
                 </li>
             </ul>
         </nav>
         <div>
-            <h1>Título</h1>
-            <p></p>
+            <h1>Pricing made easy.</h1>
+            <p>Transparent pricing to help you make the right choice. With
+                <span><strong>30-day 
+                <br>
+                money back guarantee.</strong></span>.</p>
         </div>
     </header>
+
+    <main>
+        <section>
+            <article>
+                <header>
+                    <h5>Starter plan 🧒</h5>
+                    <div>
+                        <h2>$6.99/mo</h2>
+                        <h6>$83.99 billed annually</h6>
+                    </div>
+                </header>
+                <button>Start Indexing →</button>
+                <ul style="list-style-image:url(assets/images/checkmark-onpurple.png);">
+                    <li>5,000 Index requests per month.</li>
+                    <li>1 team member only.</li>
+                    <li>.json export.</li>
+                    <li>No subdomains allowed.</li>
+                    <li>Queue enabled.</li>
+                    <li>20s avg. response time.</li>
+                </ul>
+
+            </article> 
+
+            <article>
+                <header>
+                    <h5>Advanced Plan 👨</h5>
+                    <div>
+                        <h2>$12.99/mo</h2>
+                        <h6>$155.88 billed annually</h6>
+                    </div>
+                </header>
+                <button>Start Indexing →</button>
+                <ul style="list-style-image:url(assets/images/checkmark-onwhite.png);">
+                    <li>All starter plan features.</li>
+                    <li>5 team members.</li>
+                    <li>.json and xml export.</li>
+                    <li>Subdomains allowed.</li>
+                    <li>No queue.</li>
+                    <li>5s avg. response time.</li>
+                </ul>
+            </article>
+
+            <article>
+                <header>
+                    <h5>Pro Plan 😎</h5>
+                    <div>
+                        <h2>$20.99/mo</h2>
+                        <h6>$440.78 billed annually</h6>
+                    </div>
+                </header>
+                <button>Start Indexing →</button>
+                <ul style="list-style-image:url(assets/images/checkmark-purple.png);">
+                    <li>All advanced plan features.</li>
+                    <li>Unlimited requests per/mo.</li>
+                    <li>All file types exports.</li>
+                    <li>Subdomains allowed.</li>
+                    <li>No queue.</li>
+                    <li>Instant response.</li>
+                </ul>
+            </article>
+        </section>
+    </main>
 </body>
 </html>
